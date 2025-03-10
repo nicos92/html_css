@@ -1,3 +1,15 @@
 p {
     color: blueviolet;
 }
+
+li {
+    color: brown;
+}
+
+.faltante{
+    color: red;
+}
+
+#ingrediente-secreto{
+    color: cadetblue;
+}
