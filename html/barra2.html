@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: Arial, sans-serif;
+            }
+
+            /* Estructura de la navegación */
+            .navegacion {
+                background-color: #333;
+                padding: 15px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 2px solid #888;
+                max-width: 600px;
+                width: 100%;
+            }
+
+            /* Logo principal */
+            .logo {
+                width: 50px;
+                margin-right: 20px;
+                display: flex;
+                align-items: center;
+            }
+
+            /* Enlaces con estilos base */
+            .enlace {
+                text-align: center;
+                padding: 10px;
+                font-size: 16px;
+                color: #fff;
+                cursor: pointer;
+                border-radius: 5px;
+                transition: background-color 0.3s;
+            }
+
+            .enlace:hover {
+                background-color: #f0f0f0;
+            }
+
+            /* Enlaces con estilos específicos */
+            .enlace1 {
+                background-color: #4caf50;
+                color: white;
+            }
+
+            .enlace2 {
+                background-color: #2196f3;
+                color: white;
+            }
+
+            .enlace3 {
+                background-color: #ff9800;
+                color: white;
+            }
+
+            .enlace4 {
+                background-color: #f55700;
+                color: white;
+            }
+
+            /* Elementos adicionales */
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 20px;
+            }
+
+            th,
+            td {
+                padding: 10px;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navegacion">
+            <img src="logo.png" alt="Logo" class="logo" />
+
+            <table class="navegacion">
+                <tr>
+                    <td class="enlace1">
+                        <a href="#">Página Inicial</a>
+                    </td>
+                    <td class="enlace2">
+                        <a href="#">Inicio</a>
+                    </td>
+                    <td class="enlace3">
+                        <a href="#">Exploración</a>
+                    </td>
+                </tr>
+            </table>
+
+            <div class="navegacion">
+                <a href="#" class="enlace"> Control Panel</a>
+                <a href="#" class="enlace"> Acerca de Nosotros</a>
+                <a href="#" class="enlace"> Galería</a>
+                <a href="#" class="enlace"> Contacto</a>
+            </div>
+        </div>
+    </body>
+</html>
