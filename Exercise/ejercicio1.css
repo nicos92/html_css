@@ -1,0 +1,31 @@
+body {
+    background-color: #010101;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #f1f1f1;
+}
+
+.card {
+    background: #8f5252;
+    text-align: center;
+    width: 350px;
+    margin: auto;
+    margin-top: 32px;
+}
+
+h1 {
+    padding-top: 10px;
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 10px;
+    background: #b67171;
+    text-align: justify;
+    padding: min(5em, 8%);
+}
