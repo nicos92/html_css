@@ -3,6 +3,7 @@
         "esbenp.prettier-vscode",
         "kisstkondoros.vscode-gutter-preview",
         "ritwickdey.liveserver",
-        "editorconfig.editorconfig"
+        "editorconfig.editorconfig",
+        "zhuangtongfa.material-theme"
     ]
 }

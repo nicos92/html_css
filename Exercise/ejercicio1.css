@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,7 +9,7 @@ body {
     color: #f1f1f1;
 }
 
-.element{
+.element {
     height: 100dvh;
     padding: 2em;
     background: #df5757;
@@ -23,11 +23,12 @@ body {
     width: 400px;
     margin: auto;
     margin-top: 32px;
+    margin-bottom: 32px;
+    border-radius: 32px 24px 32px 4px;
 }
 
 h1 {
-
-    font-size: clamp(1.8rem,calc(7vw + 1rem),5rem);
+    font-size: clamp(1.8rem, calc(7vw + 1rem), 5rem);
     padding: min(5em, 8%);
 }
 
@@ -42,14 +43,39 @@ p {
     background: #b67171;
     text-align: justify;
     padding: min(5em, 8%);
+    border-radius: 24px 8px 24px 4px;
 }
 
-img{
-
-
+img {
     height: 100dvh;
     width: 100%;
     aspect-ratio: 16/9;
     object-fit: cover;
     background: #110101;
+}
+
+input {
+    font-size: medium;
+    margin: 5px;
+    padding: min(5em, 1%);
+    border: none;
+    border-bottom: 1px solid greenyellow;
+    border-radius: 8px;
+    background: dimgray;
+    color: #f1f1f1;
+
+}
+
+input::-webkit-input-placeholder {
+    color: #aaaaaa; /* Para navegadores basados en WebKit */
+}
+
+input:focus {
+    border: none;
+    border-bottom: 1px solid greenyellow;
+}
+
+input:focus-visible {
+    border: none;
+    border-bottom: 1px solid greenyellow;
 }
