@@ -1,21 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     margin: 0;
 }
 .box {
     width: 100px;
     height: 100px;
-    background: rebeccapurple;
+    background: #3D18B8;
     margin: 8px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .box-default {
     padding: 30px;
-    border: 10px solid #faa;
+    border: 10px solid #B81893;
 }
 
 .box-new {
     box-sizing: border-box;
     padding: 30px;
 
-    border: 10px solid green;
+    border: 10px solid #B81893;
+}
+
+h2{
+    color: #f1f1f1;
 }
