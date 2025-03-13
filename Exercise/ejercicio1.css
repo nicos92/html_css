@@ -41,7 +41,6 @@ h2 {
 p {
     font-size: 10px;
     background: #b67171;
-    text-align: justify;
     padding: min(5em, 8%);
     border-radius: 24px 8px 24px 4px;
     text-align: center;
@@ -64,8 +63,10 @@ input {
     border-radius: 8px;
     background: dimgray;
     color: #f1f1f1;
-
+    outline: none;
 }
+
+
 
 input::-webkit-input-placeholder {
     color: #aaaaaa; /* Para navegadores basados en WebKit */
@@ -73,10 +74,6 @@ input::-webkit-input-placeholder {
 
 input:focus {
     border: none;
-    border-bottom: 1px solid greenyellow;
+    border: 2px solid greenyellow;
 }
 
-input:focus-visible {
-    border: none;
-    border-bottom: 1px solid greenyellow;
-}
