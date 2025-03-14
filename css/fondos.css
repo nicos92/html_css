@@ -1,0 +1,13 @@
+body {
+    background-color: #5c5;
+}
+
+.box {
+    width: 200px;
+    height: 500px;
+    margin: 20px;
+    background-color: #111;
+    background-image: url("../imgs/pexels-joshsorenson-1714205.jpg");
+    background-size: contain;
+    background-size: cover;
+}
