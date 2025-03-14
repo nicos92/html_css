@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,6 +7,7 @@
 body {
     background-color: #557755;
     color: azure;
+    background-image: linear-gradient(to top right, transparent, #ada);
 }
 
 .box {
@@ -19,8 +20,18 @@ body {
     background-attachment: fixed;
 }
 
-.opaco{
+.opaco {
     width: 100%;
     height: 100%;
-    background-color: #1115;
+    background-image: linear-gradient(
+        to bottom right,
+        #303f3033,
+        #303f30aa
+    );
+}
+
+.gradient {
+    width: 100dvw;
+    height: 50dvh;
+    padding: min(4em, 4%);
 }
