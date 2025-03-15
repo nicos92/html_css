@@ -1,18 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Text Area</title>
-    <link rel="stylesheet" href="../css/textarea.css">
-    <link rel="stylesheet" href="../css/fonts.css">
-</head>
-<body>
-    <form action="">
-        <h2>Formulario</h2>
-        <div><input class="form-input"  type="text" placeholder="Nombre"></div>
-        <div><input class="form-input" type="email" placeholder="Email"></div>
-        <textarea name="textarea" id="idtextarea" placeholder="Escriba aqui un comentario" rows="3"></textarea>
-    </form>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Text Area</title>
+        <link rel="stylesheet" href="../css/textarea.css" />
+        <link rel="stylesheet" href="../css/fonts.css" />
+    </head>
+    <body>
+        <form action="">
+            <h2>Formulario</h2>
+            <div>
+                <label for="idnombre">Nombre:</label>
+                <input
+                    class="form-input"
+                    id="idnombre"
+                    type="text"
+                    placeholder="John Doe"
+                />
+            </div>
+            <div>
+                <label for="idemail">Email:</label>
+                <input
+                    class="form-input"
+                    id="idemail"
+                    type="email"
+                    placeholder="Ejemple@dominioemail.com"
+                />
+            </div>
+            <label for="">Comentario</label>
+            <textarea
+                name="textarea"
+                id="idtextarea"
+                placeholder="Escriba aqui un comentario"
+                rows="3"
+            ></textarea>
+            <div>
+                <label
+                    >Acepto los terminos y condiciones
+                    <input type="checkbox" name=""
+                /></label>
+            </div>
+        </form>
+    </body>
 </html>

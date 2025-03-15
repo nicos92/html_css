@@ -26,35 +26,36 @@ form{
     max-width: 500px;
     margin: auto;
     box-shadow: 0px 0px 32px  #aaa7;
-    text-align: center;
     border-radius: 16px;
-    font-size: clamp(1.8rem, calc(2vw + 1rem), 5rem);
+    font-size: 16px;
+}
+
+label{
+    color: #fff;
 }
 
 .form-input, textarea{
-    min-width: 90%;
-    max-width: 90%;
+    min-width: 100%;
+    max-width: 100%;
     margin: auto;
     padding: min(1em,1%);
     box-sizing: border-box;
     border: 1px solid #aaa;
     border-left: 4px solid #aaa;
     border-radius: 0px 16px 16px 0px;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
     background-color: #333;
-    color: #fff;
-    font-size: 0.4em;
+    color: #eee;
+    font-size: 0.9em;
+    font-family: Bricolage Grotesque, sans-serif;
+
 
 }
 
-.form-input:focus{
-    border: none;
-    border: 2px solid #c4b;
-}
+
 
 textarea{
     margin: auto;
-    margin-top: 8px;
     font-weight: 200;
     letter-spacing: 0.05em;
     min-height: 64px;
