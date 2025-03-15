@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: Bricolage Grotesque, sans-serif;
+    background-color: #222;
+    color: #aaa;
+    padding: min(1em,2%);
+
+}
+
+h2{
+    text-align: center;
+    padding: min(1em,1%);
+    color: #eee;
+
+
+}
+
+form{
+    background-color: #222;
+    padding: min(1em,2%);
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0px 0px 32px  #aaa7;
+    text-align: center;
+    border-radius: 16px;
+    font-size: clamp(1.8rem, calc(2vw + 1rem), 5rem);
+}
+
+.form-input, textarea{
+    min-width: 90%;
+    max-width: 90%;
+    margin: auto;
+    padding: min(1em,1%);
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+    border-left: 4px solid #aaa;
+    border-radius: 0px 16px 16px 0px;
+    margin-bottom: 4px;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.4em;
+
+}
+
+.form-input:focus{
+    border: none;
+    border: 2px solid #c4b;
+}
+
+textarea{
+    margin: auto;
+    margin-top: 8px;
+    font-weight: 200;
+    letter-spacing: 0.05em;
+    min-height: 64px;
+    color: #fff;
+    resize: none;
+    border-radius: 0px 2px 2px 0px;
+
+
+}
