@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #111111;
 }
 
 body {
-    background-color: #557755;
-    color: azure;
+    background-color: #eee;
     background-image: linear-gradient(to top right, transparent, #ada);
 }
 
@@ -31,7 +32,90 @@ body {
 }
 
 .gradient {
-    width: 100dvw;
-    height: 50dvh;
+    width: 80dvw;
+    height: auto;
+    margin: auto;
+    margin-bottom: 50px;
     padding: min(4em, 4%);
+    background-image: linear-gradient(to top right, transparent, rgb(170, 188, 221));
+    box-shadow: 0px 0px 16px 0px #000a;
+    margin-top: 8px;
+
+}
+
+.gradient img{
+    width: 50%;
+    object-fit: cover;
+    object-position: center;
+    rotate: 180deg;
+    filter: drop-shadow(0px 0px 2px #0f0a);
+
+
+}
+
+.gradient h1{
+    padding: min(1em, 1%);
+    text-shadow: 0px 0px 2px #0f0a;
+    letter-spacing: 0.2em;
+
+}
+
+.gradient h2{
+    padding: min(1em, 1%);
+    color: #444;
+    letter-spacing: 0.2em;
+    text-shadow: 0px 0px 2px #0f0a;
+
+}
+
+.gradient p{
+    padding: min(1em, 1%);
+    text-align: justify;
+    line-height: 1.6em;
+}
+
+.card {
+    width: 80dvw;
+    height: auto;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: min(4em, 4%);
+    background-image: linear-gradient(to top right, transparent, rgb(170, 188, 221));
+    box-shadow: 0px 0px 32px 0px #000a;
+    margin-top: 8px;
+    text-align: center;
+    border-radius: 32px;
+
+}
+
+.card-img{
+    width: 50%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    rotate: 180deg;
+    filter: drop-shadow(0px 0px 2px #0f0a);
+
+
+}
+
+.card-title{
+    padding: min(1em, 1%);
+    text-shadow: 0px 0px 2px #0f0a;
+    letter-spacing: 0.2em;
+
+}
+
+.card-subtitle{
+    padding: min(1em, 1%);
+    color: #444;
+    letter-spacing: 0.2em;
+    text-shadow: 0px 0px 2px #0f0a;
+
+}
+
+.card-content{
+    padding: min(1em, 1%);
+    text-align: justify;
+    line-height: 1.6em;
 }
