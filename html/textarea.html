@@ -10,6 +10,8 @@
     <body>
         <form action="">
             <h2>Formulario</h2>
+            <fieldset>
+                <legend>Información Básica</legend>
             <div class="form-input">
                 <label for="idnombre">Nombre:</label>
                 <input id="idnombre" type="text" placeholder="John Doe" />
@@ -22,8 +24,19 @@
                     placeholder="Ejemple@dominioemail.com"
                 />
             </div>
-
+            <div class="form-input">
+                <label for="idasunto">Asunto:</label>
+                <input
+                    id="idasunto"
+                    type="text"
+                    placeholder="Asunto importante..."
+                />
+            </div>
+</fieldset>
             <!--    SELECT & option -->
+
+            <fieldset>
+                <legend>Datos de Usuario</legend>
             <div class="form-input">
                 <label for="selectid">Tipo de Usuario</label>
                 <select name="type-of-user" id="selectid">
@@ -63,6 +76,7 @@
                     id="check"
                 />
             </div>
+            </fieldset>
         </form>
     </body>
 </html>
