@@ -1,0 +1,38 @@
+/* SELECCION DE POR ATRIBUTOS CON PATRONES REGULARES */
+
+img[src$="png"]{
+    width: 100%;
+}
+
+img[src$="jpg"]{
+    width: 50%;
+}
+
+img[src^="../imgs"]{
+    width: 75%;
+}
+
+/* SELECCION DE ELEMENTO AL HIJO DIRECTO */
+ul > li{
+
+    color: #33a;
+}
+
+
+/* SELECCION A CUALQUIER ELEMENTO QUE ESTE DENTRO */
+
+ul strong{
+    color: #a33;
+}
+
+/* SELECCION AL ELEMENTO HERMANO ADYASENTE*/
+
+h2 + p{
+    color: #a3a;
+}
+/* SELECCION AL ELEMENTO HERMANO GENERALES*/
+
+h1 ~ h2{
+    font-style: italic;
+}
+
