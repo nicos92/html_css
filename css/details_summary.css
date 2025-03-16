@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #222;
+    color: #ddd;
+    padding: min(2em, 4%);
+    font-family: Bricolage Grotesque, sans-serif;
+
+}
+
+details{
+    background-color: #333;
+    border: 1px solid #444;
+    padding: min(1em, 4%);
+
+    font-size: 0.9em;
+}
+
+details[open]{
+    border: 1px solid #444;
+    font-weight: 800;
+    letter-spacing: 3;
+}
+
+summary{
+    background-color: transparent;
+    padding: min(1em, 4%);
+
+    font-size: 1em;
+}
+
+ul li{
+    font-weight: 200;
+    padding: min(1em, 1%);
+    margin-left: 32px;
+
+}
