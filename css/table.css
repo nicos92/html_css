@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+body {
+    padding: min(1em, 4%);
+    font-family: Bricolage Grotesque, sans-serif;
+}
+table {
+    margin: auto;
+    width: 70%;
+    max-width: 100%;
+    border: 2px solid #444;
+    text-align: left;
+    box-shadow: 0px 0px 32px #444a;
+    border-radius: 8px;
+    border-collapse: collapse;
+}
+
+thead {
+    border: 2px solid #444;
+}
+
+th,
+td {
+    text-align: left;
+    padding: min(1em, 4%);
+}
+tr {
+    border: 1px solid #444;
+}
+th {
+    color: #222;
+    letter-spacing: 8;
+    font-size: 1em;
+}
+
+td {
+    color: #444;
+}
