@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Audio Video</title>
+        <link rel="stylesheet" href="../css/audio_video.css">
+    </head>
+    <body>
+        <div class="card-video">
+        <video id="video" controls preload="metadata">
+            <source src="../videos/mariposa.mp4" type="video/mp4" />
+            <track
+                label="English"
+                kind="captions"
+                srclang="en"
+                src="resources/myvideo-en.vtt"
+                default
+            />
+            <track
+                label="Deutsch"
+                kind="captions"
+                srclang="de"
+                src="resources/myvideo-de.vtt"
+            />
+            <track
+                label="Español"
+                kind="captions"
+                srclang="es"
+                src="resources/myvideo-es.vtt"
+            />
+        </video>
+        </div>
+    </body>
+</html>
