@@ -37,3 +37,12 @@ ul li{
     margin-left: 32px;
 
 }
+
+a{
+    text-decoration: none;
+    color: #aaf;
+}
+
+a:visited{
+    color: #acf;
+}
