@@ -1,19 +1,18 @@
-div{
+div {
     background: red;
     width: 400px;
     padding: 16px;
     margin: 16px;
-
 }
 
-.formulario_texts{
+.formulario_texts {
     width: 80%;
     padding: 8px;
     margin: 4px;
     border-radius: 8px;
 }
 
-.formulario_submit{
+.formulario_submit {
     letter-spacing: 4px;
     text-transform: uppercase;
     background: green;
@@ -24,19 +23,14 @@ div{
     border-radius: 8px;
     padding: 8px;
     margin: 4px;
-
-
-
-
-
 }
 
-.formulario_submit:hover{
+.formulario_submit:hover {
     background: greenyellow;
     color: black;
 }
 
-.divtest{
+.divtest {
     background: gray;
     height: 150px;
     width: 150px;

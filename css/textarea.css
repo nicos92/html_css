@@ -1,51 +1,48 @@
-*{
+* {
     margin: 0;
     padding: 0;
-
 }
 
-body{
+body {
     font-family: Bricolage Grotesque, sans-serif;
     background-color: #222;
     color: #aaa;
-
+    padding: min(2em, 8%);
 }
 
-h2{
+h2 {
     text-align: center;
-    padding: min(1em,1%);
+    padding: min(1em, 1%);
     color: #eee;
-
-
-
 }
 
-form{
+form {
     background-color: #222;
-    padding: min(1em,2%);
+    padding: min(1em, 2%);
     max-width: 600px;
     margin: auto;
-    box-shadow: 0px 0px 32px  #7177;
+    box-shadow: 0px 0px 32px #7177;
     border-radius: 16px;
 }
 
-label{
+label {
     color: #fff;
     font-size: 0.9em;
     line-height: 2;
 }
 .form-input {
-    padding: min(1em,2%);
-
+    padding: min(1em, 2%);
 }
-input, textarea, select{
+.input,
+textarea,
+select {
     min-width: 100%;
     max-width: 100%;
     margin: auto;
-    padding: min(1em,1%);
+    padding: min(1em, 1%);
 
     border: 1px solid #aaa;
-    border-left: 4px solid #A4A;
+    border-left: 4px solid #a4a;
     border-radius: 0px 16px 16px 0px;
     margin-bottom: 8px;
 
@@ -53,24 +50,17 @@ input, textarea, select{
     color: #eee;
     font-size: 0.9em;
     font-family: Bricolage Grotesque, sans-serif;
-
-
 }
 
-option{
+option {
     background-color: #222;
-
 }
 
-
-
-.form-input:focus{
+.form-input:focus {
     border: 2px solid #a4a;
-
 }
 
-
-textarea{
+textarea {
     margin: auto;
     font-weight: 200;
     letter-spacing: 0.05em;
@@ -78,30 +68,24 @@ textarea{
     color: #fff;
     resize: none;
     border-radius: 0px 2px 2px 0px;
-
-
 }
 
-.checkbox{
+.checkbox {
     width: auto;
     display: inline;
-
 }
 
-fieldset{
+fieldset {
     border: 1px solid #333;
     border-radius: 16px;
-    padding: min(1em,4%);
-
-
+    padding: min(1em, 4%);
 }
 
-legend{
-    padding: min(1em,2%);
-
+legend {
+    padding: min(1em, 2%);
 }
 
-a{
+a {
     text-decoration: none;
     color: #aaf;
 }

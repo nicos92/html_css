@@ -12,71 +12,77 @@
             <h2>Formulario</h2>
             <fieldset>
                 <legend>Información Básica</legend>
-            <div class="form-input">
-                <label for="idnombre">Nombre:</label>
-                <input id="idnombre" type="text" placeholder="John Doe" />
-            </div>
-            <div class="form-input">
-                <label for="idemail">Email:</label>
-                <input
-                    id="idemail"
-                    type="email"
-                    placeholder="Ejemple@dominioemail.com"
-                />
-            </div>
-            <div class="form-input">
-                <label for="idasunto">Asunto:</label>
-                <input
-                    id="idasunto"
-                    type="text"
-                    placeholder="Asunto importante..."
-                />
-            </div>
-</fieldset>
+                <div class="form-input">
+                    <label for="idnombre">Nombre:</label>
+                    <input class="input" id="idnombre" type="text" placeholder="John Doe" />
+                </div>
+                <div class="form-input">
+                    <label for="idemail">Email:</label>
+                    <input
+                    class="input"
+                        id="idemail"
+                        type="email"
+                        placeholder="Ejemple@dominioemail.com"
+                    />
+                </div>
+                <div class="form-input">
+                    <label for="idasunto">Asunto:</label>
+                    <input
+                    class="input"
+                        id="idasunto"
+                        type="text"
+                        placeholder="Asunto importante..."
+                    />
+                </div>
+            </fieldset>
             <!--    SELECT & option -->
 
             <fieldset>
                 <legend>Datos de Usuario</legend>
-            <div class="form-input">
-                <label for="selectid">Tipo de Usuario</label>
-                <select name="type-of-user" id="selectid">
-                    <option value="user1">user 1</option>
-                    <option value="user2">user 2</option>
-                    <option value="user3">User 3</option>
-                </select>
-            </div>
+                <div class="form-input">
+                    <label for="selectid">Tipo de Usuario</label>
+                    <select name="type-of-user" id="selectid">
+                        <option value="user1">user 1</option>
+                        <option value="user2">user 2</option>
+                        <option value="user3">User 3</option>
+                    </select>
+                </div>
 
-            <!--    DATALIST  & option -->
-            <div class="form-input">
-                <label
-                    >Referente
-                    <input list="referente" name="referente" />
-                    <datalist name="type-of-user" id="referente">
-                        <option value="user1">un amigo</option>
-                        <option value="user2">un conocido</option>
-                        <option value="user3">un youtuber</option>
-                    </datalist>
-                </label>
-            </div>
-            <div class="form-input">
-                <label for="">Comentario</label>
-                <textarea
-                    name="textarea"
-                    id="idtextarea"
-                    placeholder="Escriba aqui un comentario"
-                    rows="3"
-                ></textarea>
-            </div>
-            <div class="form-input">
-                <label for="check"> Acepto los <a href="details_summary.html#terminos" target="_blank"> terminos y coindiciones</a> </label>
-                <input
-                    type="checkbox"
-                    name="checkname"
-                    class="checkbox"
-                    id="check"
-                />
-            </div>
+                <!--    DATALIST  & option -->
+                <div class="form-input">
+                    <label>Referente
+                        <input class="input"  list="referente" name="referente" />
+                        <datalist name="type-of-user" id="referente">
+                            <option value="user1">un amigo</option>
+                            <option value="user2">un conocido</option>
+                            <option value="user3">un youtuber</option>
+                        </datalist>
+                    </label>
+                </div>
+                <div class="form-input">
+                    <label for="">Comentario</label>
+                    <textarea
+                        name="textarea"
+                        id="idtextarea"
+                        placeholder="Escriba aqui un comentario"
+                        rows="3"
+                    ></textarea>
+                </div>
             </fieldset>
+                <div class="form-input">
+                    <label for="check">
+                        Acepto los
+                        <a href="details_summary.html#terminos" target="_blank">
+                            terminos y coindiciones</a
+                        >
+                    </label>
+                    <input
+                        type="checkbox"
+                        name="checkname"
+                        class="checkbox"
+                        id="check"
+                    />
+                </div>
         </form>
     </body>
 </html>
