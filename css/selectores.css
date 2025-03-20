@@ -1,38 +1,63 @@
 /* SELECCION DE POR ATRIBUTOS CON PATRONES REGULARES */
 
-img[src$="png"]{
+h1 {
+    font-size: 1.8em;
+    padding: 1rem 2rem;
+}
+
+h2 {
+    font-size: 1.6em;
+    padding: 0.5rem 2rem;
+}
+
+h3 {
+    font-size: 1.4em;
+    padding: 0.5rem 2rem;
+}
+h4{
+    font-size: 1.2em;
+    padding: 0.5rem 2rem;
+}
+
+p {
+    font-size: 1em;
+    padding: 0.5rem 2rem;
+}
+
+ul {
+    padding: 0.5rem 2rem;
+}
+img[src$="png"] {
     width: 100%;
 }
 
-img[src$="jpg"]{
+img[src$="jpg"] {
     width: 50%;
 }
 
-img[src^="../imgs"]{
-    width: 75%;
+img[src^="../imgs"] {
+    width: 100%;
 }
 
 /* SELECCION DE ELEMENTO AL HIJO DIRECTO */
-ul > li{
-
+ul > li {
     color: #33a;
 }
 
-
 /* SELECCION A CUALQUIER ELEMENTO QUE ESTE DENTRO */
 
-ul strong{
+ul strong {
     color: #a33;
 }
 
 /* SELECCION AL ELEMENTO HERMANO ADYASENTE*/
 
-h2 + p{
-    color: #a3a;
+h2 + p {
+    color: #181818;
 }
 /* SELECCION AL ELEMENTO HERMANO GENERALES*/
 
-h1 ~ h2{
-    font-style: italic;
+h1 ~ h2 {
+    color: #181818;
 }
 
